@@ -19,7 +19,7 @@
     justify-content: space-evenly;
 }
 .article {
-     width: 50%;
+     width: 83,33333333333334%;
      height: 60px;
 }
 .aside{
@@ -33,4 +33,24 @@
     width: 100%;
     background-color: rgb(34, 116, 40);
     height: 240px;
+}
+.body {
+font-size: 100%
+}
+.container {
+    width: 90%;
+    margin: 10px auto;
+}
+@media all and (max-width: 768px) {
+    main {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+    }
+}
+.image {
+    width: 25%;
+    height: 60px;
+    
 }
